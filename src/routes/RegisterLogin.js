@@ -25,7 +25,7 @@ function RegisterLogin() {
         password
       );
       const user = userCredential.user;
-      console.log("User  registered successfully:", user);
+      
     } catch (error) {
       const errorCode = error.code;
       const errorMessage = error.message;
